@@ -1,0 +1,10 @@
+Pkg update && pkg upgrade
+pkg install python2
+Pkg install git
+Pip install requests
+Pip install bs4
+Pip install mechanize
+git clone https://github.com/kontol/kontolgwkecil
+cd kontolgwkecil
+git pull
+Python2 kontolkecil.py
